@@ -62,8 +62,8 @@ export default function MetricCounter({
 
   return (
     <span className={`inline-flex items-baseline ${className}`}>
-      <span ref={nodeRef}>0{decimals > 0 ? '.' + '0'.repeat(decimals) : ''}</span>
-      {suffix && <span className="ml-1">{suffix}</span>}
+      <span ref={nodeRef}>{Number(value).toFixed(decimals)}</span>
+      {suffix && <span className={suffix === '%' || suffix === '°' ? '' : 'ml-1'}>{suffix}</span>}
     </span>
   );
 }

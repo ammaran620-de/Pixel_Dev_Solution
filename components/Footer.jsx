@@ -21,12 +21,7 @@ export default function Footer() {
         <div>
           <h4 className="mono-tag text-paper/50 mb-4 block">COMPANY</h4>
           <ul className="space-y-3">
-            <li><Link href="/about" className="text-paper/80 hover:text-signal transition-colors">About the team</Link></li>
-            <li>
-              <Link href="/careers" className="text-paper/80 hover:text-signal transition-colors flex items-center gap-2">
-                Careers <span className="bg-signal/20 text-signal text-xs px-2 py-0.5 rounded">Hiring</span>
-              </Link>
-            </li>
+            <li><Link href="/about" className="text-paper/80 hover:text-signal transition-colors">About</Link></li>
             <li><Link href="/contact" className="text-paper/80 hover:text-signal transition-colors">Contact us</Link></li>
           </ul>
         </div>
