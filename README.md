@@ -1,12 +1,12 @@
 # PIXEL-DEV SOLUTION — MASTER BUILD SPECIFICATION
 
-**Version 2.0 — Full site rebuild prompt**
+**Version 2.0 — Full site rebuild specification**
 
 ---
 
 ## PART 0 — HOW TO USE THIS DOCUMENT
 
-**ATTENTION AI ASSISTANT / DEVELOPER:** This document supersedes the previous README as the source of truth for the Pixel-Dev Solution codebase. It defines the design system, information architecture, motion system, and a section-by-section specification for every page.
+**ATTENTION DEVELOPER:** This document supersedes the previous README as the source of truth for the Pixel-Dev Solution codebase. It defines the design system, information architecture, motion system, and a section-by-section specification for every page.
 
 Read Part 1 and Part 2 before writing any code. When building any individual section, read that section's block in Part 3 in full — each block gives you **Theme → Content → Layout → Animation → Why this wins**, in that order. Part 4 through Part 8 are global rules that apply to everything you build.
 
